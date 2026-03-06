@@ -217,6 +217,7 @@ on-mode-changed = []
 # 54704 | com.edovia.screens4.mac               | Screens
 # 8805 | net.whatsapp.WhatsApp                  | WhatsApp
 # 98758 | date.play.simulator                   | Playdate Simulator
+# 24573 | com.apple.reminders                        | Reminders
 
 [[on-window-detected]]
 if.app-id = 'com.apple.ActivityMonitor'
@@ -268,4 +269,8 @@ run = ['layout tiling']
 
 [[on-window-detected]]
 if.app-id = 'date.play.simulator'
+run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.apple.reminders'
 run = ['layout floating']
