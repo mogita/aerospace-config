@@ -218,6 +218,7 @@ on-mode-changed = []
 # 8805 | net.whatsapp.WhatsApp                  | WhatsApp
 # 98758 | date.play.simulator                   | Playdate Simulator
 # 24573 | com.apple.reminders                        | Reminders
+# 499  | com.colliderli.iina       | IINA
 
 [[on-window-detected]]
 if.app-id = 'com.apple.ActivityMonitor'
@@ -273,4 +274,8 @@ run = ['layout floating']
 
 [[on-window-detected]]
 if.app-id = 'com.apple.reminders'
+run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.colliderli.iina'
 run = ['layout floating']
