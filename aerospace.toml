@@ -219,6 +219,7 @@ on-mode-changed = []
 # 98758 | date.play.simulator                   | Playdate Simulator
 # 24573 | com.apple.reminders                        | Reminders
 # 499  | com.colliderli.iina       | IINA
+# 53472 | com.mitchellh.ghostty                           | Ghostty
 
 [[on-window-detected]]
 if.app-id = 'com.apple.ActivityMonitor'
