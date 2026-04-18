@@ -163,7 +163,7 @@ on-mode-changed = []
     # Application shortcuts
     cmd-alt-enter = 'exec-and-forget ~/Developer/bin/aerospace/new-iterm.sh'
     cmd-alt-n = 'exec-and-forget open -a /Applications/AFFiNE.app'
-    cmd-alt-b = 'exec-and-forget open -a "/Applications/Zen Browser.app"'
+    cmd-alt-b = 'exec-and-forget open -a "/Applications/Firefox.app"'
     cmd-alt-r = 'exec-and-forget open -a "/Applications/Reeder.app"'
     cmd-alt-m = 'exec-and-forget ~/Developer/bin/aerospace/smart-floating-window.sh Mail almost-maximize'
     cmd-alt-t = 'exec-and-forget ~/Developer/bin/aerospace/smart-floating-window.sh Telegram reasonable'
@@ -221,6 +221,7 @@ on-mode-changed = []
 # 499  | com.colliderli.iina       | IINA
 # 53472 | com.mitchellh.ghostty                           | Ghostty
 # 48044 | com.lymandumas.musicplayer       | Kolis Music
+# 1694 | org.mozilla.firefox             | Firefox
 
 [[on-window-detected]]
 if.app-id = 'com.lymandumas.musicplayer'
