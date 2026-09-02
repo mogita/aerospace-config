@@ -223,6 +223,7 @@ on-mode-changed = []
 # 48044 | com.lymandumas.musicplayer       | Kolis Music
 # 1694 | org.mozilla.firefox             | Firefox
 # 18563 | com.ninjakiwi.bloonstd6                    | BloonsTD6
+# 94352 | com.panic.Mirror                      | Mirror
 
 [[on-window-detected]]
 if.app-id = 'com.ninjakiwi.bloonstd6'
@@ -282,6 +283,10 @@ run = ['layout tiling']
 
 [[on-window-detected]]
 if.app-id = 'date.play.simulator'
+run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.panic.Mirror'
 run = ['layout floating']
 
 [[on-window-detected]]
