@@ -296,3 +296,11 @@ run = ['layout floating']
 [[on-window-detected]]
 if.app-id = 'com.colliderli.iina'
 run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.mogita.gmud'
+run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.vmware.fusion'
+run = ['layout floating']
