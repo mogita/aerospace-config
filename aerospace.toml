@@ -304,3 +304,7 @@ run = ['layout floating']
 [[on-window-detected]]
 if.app-id = 'com.vmware.fusion'
 run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.tencent.qq'
+run = ['layout floating']
