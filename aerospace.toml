@@ -308,3 +308,7 @@ run = ['layout floating']
 [[on-window-detected]]
 if.app-id = 'com.tencent.qq'
 run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'org.openemu.OpenEmu'
+run = ['layout floating']
