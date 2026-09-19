@@ -312,3 +312,8 @@ run = ['layout floating']
 [[on-window-detected]]
 if.app-id = 'org.openemu.OpenEmu'
 run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.rileytestut.Delta'
+run = ['layout floating']
+
