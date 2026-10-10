@@ -320,3 +320,8 @@ run = ['layout floating']
 [[on-window-detected]]
 if.app-id = 'com.xuanhr.heroLegend2'
 run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.autodesk.mas.fbxreview'
+run = ['layout floating']
+
