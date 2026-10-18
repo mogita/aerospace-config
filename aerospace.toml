@@ -328,3 +328,7 @@ run = ['layout floating']
 [[on-window-detected]]
 if.app-id = 'com.felttip.SoundStudio'
 run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.xingin.discover'
+run = ['layout floating']
