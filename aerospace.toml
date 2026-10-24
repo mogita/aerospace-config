@@ -336,3 +336,7 @@ run = ['layout floating']
 [[on-window-detected]]
 if.app-id = 'org.godotengine.godot'
 run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.apple.logic10'
+run = ['layout floating']
