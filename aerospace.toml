@@ -332,3 +332,7 @@ run = ['layout floating']
 [[on-window-detected]]
 if.app-id = 'com.xingin.discover'
 run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'org.godotengine.godot'
+run = ['layout floating']
